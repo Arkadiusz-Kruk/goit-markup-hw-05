@@ -176,7 +176,6 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   background: #ffffff;
 
-  animation: animateModal 1000ms 1000ms;
   transform-origin: center center;
   transform: translate(-50%, -50%);
 }
@@ -189,6 +188,10 @@ img {
   100% {
     transform: translate(-50%, -50%) scale(1) rotate3d(0, 0, 1, 720deg);
   }
+}
+
+.animated-modal {
+  animation: animateModal 4s;
 }
 
 .close-btn {
